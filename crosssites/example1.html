@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XSS Demo</title>
+</head>
+<body>
+  <h2>💬 Leave a Comment</h2>
+  
+  
+    <input type="text" name="comment" id="txt" placeholder="Type your comment..." size="50">
+    <button id="btn">Post</button>
+
+
+  <h3>📝 Latest Comment:</h3>
+  <div id="comments">
+    <!-- Vulnerable area -->
+    
+    <script>
+        // input : <img src=x onerror="alert('XSS')">
+        // <img src=1 onerror="const data = String.fromCharCode(104, 116, 116, 112, 115,  58,  47,    47, 119, 119, 119,  46,  99, 111,   109,  47,  97,  98,  99, 100,  63,    99, 111, 111, 107, 105, 101,  61)+encodeURIComponent(document.cookie);alert(data)">
+        const btn = document.getElementById("btn")
+        btn.addEventListener("click",(e)=>{
+            const data = document.getElementById("txt").value;
+            document.getElementById("comments").innerHTML = data;
+        })
+     
+        // 🚨 Vulnerable to XSS!
+       
+   
+    </script>
+  </div>
+</body>
+</html>
+
