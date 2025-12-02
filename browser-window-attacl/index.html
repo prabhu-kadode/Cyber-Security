@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fake Google Login</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f3f3f3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .fake-popup {
+      width: 500px;
+      height: 600px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      background-color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .title-bar {
+      background-color: #eee;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .url-bar {
+      background-color: white;
+      padding: 5px 10px;
+      font-size: 14px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .url-bar span {
+      color: green;
+    }
+
+    .content {
+      padding: 30px;
+      text-align: center;
+    }
+
+    input {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      width: 80%;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="fake-popup">
+  <div class="title-bar">
+    <div>🔴 🟡 🟢</div>
+    <div>Login - Google</div>
+    <div></div>
+  </div>
+  <div class="url-bar">
+    🔒 <span>https://accounts.google.com</span>
+  </div>
+  <div class="content">
+    <h2>Sign in</h2>
+    <input type="email" placeholder="Email or phone">
+    <input type="password" placeholder="Enter your password">
+    <button>Next</button>
+  </div>
+</div>
+
+</body>
+</html>

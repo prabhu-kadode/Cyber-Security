@@ -1,0 +1,44 @@
+2025-11-22 08:45:01 INFO  Service started successfully
+2025-11-22 08:45:12 INFO  User login successful | user=john | IP=192.168.1.10
+2025-11-22 08:45:30 WARN  Failed login attempt | user=admin | IP=203.0.113.45
+2025-11-22 08:45:33 WARN  Failed login attempt | user=admin | IP=203.0.113.45
+2025-11-22 08:45:36 SECURITY Brute force attack detected | attempts=8 | IP=203.0.113.45
+
+2025-11-22 08:46:10 ERROR Database connection timeout | code=DB_TIMEOUT_504
+2025-11-22 08:46:22 INFO  API request received | endpoint=/api/login
+
+2025-11-22 08:47:02 CRITICAL SQL Injection attempt | payload="' OR 1=1 --" | IP=185.22.67.98
+2025-11-22 08:47:55 ALERT Invalid API key used | api_key=sk_test_92hd83jdks92
+
+2025-11-22 08:48:12 INFO  File uploaded | file=resume.pdf | user=mike
+2025-11-22 08:48:44 SECURITY DDoS attack pattern detected | 1500 req/min | IP=66.102.45.201
+
+2025-11-22 08:49:05 ERROR NullPointerException at OrderService line 214
+2025-11-22 08:49:40 WARN  High CPU usage | 91% | service=payment
+
+2025-11-22 08:50:10 ALERT API key leaked in request | api_key=AKIA_FAKEKEY12345678
+2025-11-22 08:50:55 SECURITY Unauthorized access attempt | endpoint=/admin | IP=91.201.44.120
+
+2025-11-22 08:51:33 CRITICAL Malware detected | file=invoice.exe | hash=998asdj3928sdj
+2025-11-22 08:52:01 INFO  User logout | user=john
+
+2025-11-22 08:52:45 ERROR 503 Service Unavailable | gateway timeout
+2025-11-22 08:53:19 SECURITY Path Traversal detected | payload=../../etc/passwd | IP=77.22.91.33
+
+2025-11-22 08:54:02 WARN  Rate limit exceeded | IP=120.34.56.78
+2025-11-22 08:54:49 INFO  Order created | order_id=99821
+
+2025-11-22 08:55:15 ALERT Suspicious JWT token found | token=eyJhbGciOiJIUzI1NiJ9.fakepayload
+2025-11-22 08:56:03 CRITICAL Ransomware behavior detected | process=encryptor.exe
+
+2025-11-22 08:56:47 ERROR Memory overflow in cache module
+2025-11-22 08:57:22 SECURITY PowerShell command execution blocked | command=Invoke-WebRequest malicious.com
+
+2025-11-22 08:58:10 INFO  Backup completed successfully
+2025-11-22 08:58:59 WARN  Disk usage exceeded 95% | server=node-2
+
+2025-11-22 08:59:41 ALERT Exposed GitHub token | api_key=ghp_FAKE_TOKEN_987654321
+2025-11-22 09:00:12 SECURITY Suspicious network scan detected | IP=45.88.22.11
+
+2025-11-22 09:01:07 ERROR Authentication service crashed
+2025-11-22 09:01:50 INFO  System health check OK

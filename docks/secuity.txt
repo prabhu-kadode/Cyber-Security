@@ -1,0 +1,19 @@
+Three pillers of secuity are availablity, integrity and confidentiality
+
+confidentiality is nothing but data should be safe and secure.
+It should be acceesed by only those who are authorised.
+Not everyone has access to it. 
+
+integrity is nothing but data must be safe and not tempared during trainsit and at rest.
+we can use various techniques to ensure data intrigrity during transit and at rest.
+we can use hmac tech to encrypt data to protect it from getting tempred.
+
+availablity is nothing but data must be available during any type of attack.
+Those who have access to it must get data easily without any hustle
+
+Encryption is process of converting text into unreadble format
+with some secret key so that it can be protected and can't be read when it is caught by attacker.
+We use various algoritham to do so.
+We have symteric and asymetric encryption.
+Systemtrck encryption is encrypting your data and decrypting it with same key
+where as asymterick is nothing byt secret key is different.

@@ -1,0 +1,18 @@
+type:SECURITY,logmessage:2025-11-22 08:45:36 security brute force attack detected | attempts=8 | ip=203.0.113.45
+type:ERROR,logmessage:2025-11-22 08:46:10 error database connection timeout | code=db_timeout_504
+type:CRITICAL,logmessage:2025-11-22 08:47:02 critical sql injection attempt | payload="' or 1=1 --" | ip=185.22.67.98
+type:ALERT,logmessage:2025-11-22 08:47:55 alert invalid api key used | api_key=sk_test_92hd83jdks92
+type:SECURITY,logmessage:2025-11-22 08:48:44 security ddos attack pattern detected | 1500 req/min | ip=66.102.45.201
+type:ERROR,logmessage:2025-11-22 08:49:05 error nullpointerexception at orderservice line 214
+type:ALERT,logmessage:2025-11-22 08:50:10 alert api key leaked in request | api_key=akia_fakekey12345678
+type:SECURITY,logmessage:2025-11-22 08:50:55 security unauthorized access attempt | endpoint=/admin | ip=91.201.44.120
+type:CRITICAL,logmessage:2025-11-22 08:51:33 critical malware detected | file=invoice.exe | hash=998asdj3928sdj
+type:ERROR,logmessage:2025-11-22 08:52:45 error 503 service unavailable | gateway timeout
+type:SECURITY,logmessage:2025-11-22 08:53:19 security path traversal detected | payload=../../etc/passwd | ip=77.22.91.33
+type:ALERT,logmessage:2025-11-22 08:55:15 alert suspicious jwt token found | token=eyjhbgcioijiuzi1nij9.fakepayload
+type:CRITICAL,logmessage:2025-11-22 08:56:03 critical ransomware behavior detected | process=encryptor.exe
+type:ERROR,logmessage:2025-11-22 08:56:47 error memory overflow in cache module
+type:SECURITY,logmessage:2025-11-22 08:57:22 security powershell command execution blocked | command=invoke-webrequest malicious.com
+type:ALERT,logmessage:2025-11-22 08:59:41 alert exposed github token | api_key=ghp_fake_token_987654321
+type:SECURITY,logmessage:2025-11-22 09:00:12 security suspicious network scan detected | ip=45.88.22.11
+type:ERROR,logmessage:2025-11-22 09:01:07 error authentication service crashed
